@@ -15,6 +15,15 @@ void print_struct_as_hex(void *struct_ptr, unsigned int size) {
     printf("\n");
 }
 
+// #include<stdio.h>
+
+// int main(){
+//     char data[] = { 'a', 'b', 'c' };
+//     fwrite(&data,sizeof(char),3,stdout);
+//     fflush(stdout);
+//     return 0;
+// }
+
 int main() {
     struct RTrieState aa;
     unsigned char a = 0x30;
